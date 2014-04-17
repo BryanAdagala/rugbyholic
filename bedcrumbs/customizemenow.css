@@ -1,0 +1,353 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body#CMN div#pathfinder {
+	width: 800px;
+	clear: left;
+	font-size: .9em;
+	margin: 24px 0;
+}
+body#CMN {
+	padding: 8px;
+	font: .9em arial, helvetica, verdana, sans-serif;
+	background-color: #FFF;
+}
+#CMN .hide{
+	display: none;
+}
+#CMN p,
+#CMN div {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+#CMN h1,
+#CMN h2,
+#CMN h3,
+#CMN h4,
+#CMN h5,
+#CMN h6{
+	margin: 0 0 8px 0;
+	padding: 0;
+	color: #000;
+	font-weight: bold;
+}
+#CMN h1 {
+	font-size: 1.3em;
+}
+#CMN h2 {
+	font-size: 1.2em;
+}
+#CMN h3,
+#CMN h4 {
+	font-size: 1.1em;
+}
+#CMN h5,
+#CMN h6 {
+	font-size: 1em;
+}
+#CMN a {
+	color: #930;
+}
+#CMN a:hover {
+	color: #600;
+}
+#CMN table{
+	margin: 0 0 8px 0;
+	border: 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+#CMN td,
+#CMN th {
+	border: 1px solid #999;
+}
+#CMN td {
+	text-align: left;
+	padding: 4px;
+	color: #333;
+	vertical-align: top;
+}
+#CMN th {
+	text-align: center;
+	padding: 8px;
+}
+#CMN td.name {
+	font-weight:bold;
+}
+#CMN td.action {
+	padding: 8px;
+	text-align: center;
+}
+#CMN td.quantity input{
+	display: block;
+	width: 4em;
+	margin-top: 4px;
+}
+#CMN td.quantity input.button{
+	width: auto;
+}
+#CMN table ul {
+	margin: 0;
+	padding: 0 0 0 18px;
+	list-style-type: square;
+}
+#CMN table dt {
+	clear: right;
+}
+#CMN table dd {
+	float: right;	
+	width: 98%;
+	text-align: right;
+}
+
+#CMN #header,
+#CMN #main,
+#CMN #footer {
+	width: 800px;
+	clear: left;
+}
+#CMN #main.popup {
+	width: 600px;
+}
+#CMN #header {
+	margin: 0 0 16px 0;
+	border-bottom: 1px solid #999;
+}
+#CMN #footer {
+	margin: 16px 0 0 0;
+	padding: 8px 0 0 0;
+	border-top: 1px solid #999;
+}
+#CMN ul.nav,
+#CMN .nav ul {
+	padding: 0;
+	margin: 0 0 12px 0;
+}
+#CMN ul.nav li,
+#CMN .nav li {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	padding: 0 10px 0 0;
+	margin: 0 10px 0 0;
+	border-right: 1px solid #999;
+}
+#CMN ul.nav li.last,
+#CMN .nav li.last {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#CMN #header li {
+	margin-top: 8px;
+}
+#CMN #header li.logo {
+	float: none;
+	background-color: #888;
+	border: 0;
+	margin: 0 12px 0 0;
+	padding: 4px;
+}
+#CMN #header li.logo a {
+	font-weight: bold;
+	color: #eee;
+	text-decoration: none;
+}
+
+#CMN img.productShot,
+#CMN img.detailShot {
+	width: 160px;
+	height: 100px;
+	border: 1px solid #999;
+}
+#CMN img.productShot{
+	float: left;
+	margin: 0 12px 12px 0;
+}
+#CMN img.detailShot {
+	float: right;
+	margin: 0 0 12px 12px;
+}
+
+#CMN ul.productImages li {
+	margin: 0 0 12px 0;
+}
+#CMN img.product{
+	display: block;
+	border: 1px solid #999;
+	margin: 0 0 12px 0;
+}
+
+#CMN div.fakeForm {
+	height: 120px;
+	border: 2px dashed #999;
+	text-align: center;
+	display: table;
+	width: 100%;
+	_position: relative;
+	overflow: hidden;
+}
+#CMN div.fakeForm p {
+	_position: absolute;
+	_top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#CMN .buttons {
+	padding: 8px;
+	border: 1px dotted #999;
+	margin: 16px 0 24px 0;
+}
+
+#CMN input.button,
+#CMN a.button {
+	font-size: .9em;
+	margin: 0 0 8px 0;
+	display: block;
+	border: 1px solid #930;
+	color: #930;
+	padding: 3px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	background-color: #fff;
+}
+#CMN .button:hover {
+	cursor: pointer;
+}
+#CMN .buttons input.button,
+#CMN .buttons a.button,
+#CMN .buttonsNoBorder a.button,
+#CMN .buttonsNoBorder input.button {
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+#CMN form.checkout input,
+#CMN form.checkout textarea,
+#CMN form.checkout select {
+	width: 400px
+	margin: 4px 0 0 0;
+}
+#CMN form.checkout input.button{
+	width: auto;
+	clear: left;
+}
+#CMN form.checkout label {
+	font-size: .9em;
+	font-weight: bold;
+	display: block;
+	float: left;
+	clear: left;
+	margin: 0 10px 10px 0;
+}
+#CMN form.checkout label.left {
+	clear: none;
+}
+#CMN form.checkout h3,
+#CMN form.checkout p {
+	clear: left;
+}
+#CMN form.checkout label input,
+#CMN form.checkout label select,
+#CMN form.checkout label textarea{
+	display: block;
+}
+#CMN form.checkout label.check {
+	padding: 6px;
+}
+#CMN form.checkout label.check input {
+	width: auto;
+	float: left;
+	margin: 0 6px 0 0;
+}
+#CMN form.checkout label.check span {
+	float: left;
+}
+#CMN .breadcrumb {
+	font-size: .8em;
+	margin: 0 0 24px 0;
+}
+#CMN .breadcrumb li {
+	color: #666;
+}
+#CMN .breadcrumb li a {
+	color: #36c;
+}
+
+#CMN .breadcrumb .current {
+	font-weight: bold;
+	color: #039;
+}
+
+/*standard float-clearing*/
+
+/* float clearing for IE6 */
+* html #CMN dl,
+* html #CMN form.checkout label.check,
+* html #CMN .buttonsNoBorder,
+* html #CMN .buttons,
+* html #CMN ul.nav,
+* html #CMN .nav ul {
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html #CMN dl,
+*+html #CMN form.checkout label.check,
+*+html #CMN .buttonsNoBorder,
+*+html #CMN .buttons,
+*+html #CMN ul.nav,
+*+html #CMN .nav ul{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+#CMN dl:after,
+#CMN form.checkout label.check:after,
+#CMN .buttonsNoBorder:after,
+#CMN .buttons:after,
+#CMN ul.nav:after,
+#CMN .nav ul:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* NEW STYLES FOR 2.0 */
+
+/*restyle tooltip links*/
+#CMN a.jTip {
+	text-decoration: none;
+	color: #930;
+}
+/*narrow the width of pages that will be rendered by jTip*/
+#JT #main.popup {
+	width: 200px;
+	padding: 4px;
+}
+/*hide the headline of pages that will be rendered by jTip*/
+#JT #main.popup h1 {
+	display: none;
+}
+/*narrow the width of pages that will be rendered by Thickbox*/
+#CMN #main.inline {
+	width: 600px;
+}
+
+/* NEW STYLES FOR 2.1 */
+
+#CMN .tabContent {
+	padding: 14px;
+	border: 1px solid #97a5b0;
+}
+#CMN .tabContent h2{
+	display: none;
+}
+#CMN .tabContent.noTop {
+	border-top: 0;
+}
